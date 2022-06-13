@@ -1,0 +1,26 @@
+Started by user Ankita N
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/demo
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+using credential a3d668b6-2fa6-4b4c-8782-bf49a58481b0
+Cloning the remote Git repository
+Cloning repository https://github.com/AnkitaNarvekar/deploySpringboot.git
+ > git init /var/lib/jenkins/workspace/demo # timeout=10
+Fetching upstream changes from https://github.com/AnkitaNarvekar/deploySpringboot.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/AnkitaNarvekar/deploySpringboot.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/AnkitaNarvekar/deploySpringboot.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 88e6158b9bad430ae406c5e8cd96d72611d2713e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 88e6158b9bad430ae406c5e8cd96d72611d2713e # timeout=10
+Commit message: "Update home.jsp"
+ > git rev-list --no-walk 2e25f87599762884ccb1b791ddc9ea19019dc43f # timeout=10
+Finished: SUCCESS
